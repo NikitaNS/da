@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <script async src="controller/google_form_window.js"></script>
+        <title>Digital Angels</title>
+    </head>
+    <body>
+      <header>
+        <div class="main-menu">
+            <div class="site-map">  
+              <h2>Digital Angels</h2>
+              <nav>
+                  <ul>
+                    <li>Услуги</li>
+                    <li>Портфолио</li>
+                    <li>О компании</li>
+                  </ul>
+                </nav>
+              </div>
+              <section class="contacts">
+                <ul>
+                  <li>@tgname</li>
+                  <li><a href="tel: +74951234567">+7-(495)-123-45-67</a></li>
+                </ul>
+                <img src="imagens/imagens-header-mobile/phone.png">
+                <img src="imagens/imagens-header-mobile/mobile-menu.png" class="mobile-menu">
+              </section>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <p><strong>Digital Angels</strong>- Самый крутой Ит аутсорс</p>
+          
+        </section>
+        <div class="description">
+          <div class="description-left">
+            <div>
+              <p><img src="imagens/imagens-main-description/phone.png">Телефонная служба поддержки: неограниченная телефонная консультация по всем IT-вопросам</p>    
+            </div>
+            <div>
+              <p><img src="imagens/imagens-main-description/net.png">Удаленное администрирование: устранение всех неполадок, решение всех поставленных задач.</p>
+            </div>
+            <div>
+              <p><img src="imagens/imagens-main-description/diagnostic-pc.png">Диагностика, профилактика сбоев компьютерного, сетевого и периферийного оборудования. Антивирусной диагностики, организация антивирусной защиты. </p>
+            </div>
+          </div>
+          <div class="description-right">
+            <div>
+              <p><img src="imagens/imagens-main-description/person.png">Выезд специалиста: устранение неисправностей компьютерной техники, оперативная реакция на внештатные ситуации</p>
+            </div>
+            <div>
+              <p><img src="imagens/imagens-main-description/fix-box.png">Решение проблем пользователей, при эксплуатации программного и аппаратного комплекса, консультирование персонала. </p>
+            </div>
+            <div>
+              <p><img src="imagens/imagens-main-description/instal-pc.png">Установка, настройка и оптимизация работы программного и аппаратного обеспечения. Обновление компьютерного оборудования программного обеспечения.  </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div onclick="form.popUp.close()" class="overlay"></div>
+          
+          <button id="openForm">Открыть форму</button>
+
+          <div>
+            <form class = "form_window">
+                <p>ФИО</p>
+                <input type="text" class= "fsp" style="width: 200px;">
+                <div class = "phones">
+                    <div class="phone">
+                        Телефон
+                        <input type="text" class="number" style="width: 200px;" >
+                    </div>
+                    <button class= "addPhone" type="button">+</button>
+                </div>
+                <p>Коментарий</p>
+                <textarea class="comment" ></textarea>
+                <button type="button"  class= "send" style="width: 200px;">Send</button>
+
+            </form>
+        </div>
+      </div>
+      </main>
+        <footer>
+        </footer>
+    </body>
+</html>

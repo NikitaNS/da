@@ -1,0 +1,64 @@
+html{
+    font-family: "Consolas";
+    color: #FFFFFF;
+    background-color: #0078d7;
+}
+
+body {
+    margin: 0px;
+    padding: 30px 10px 10px 10px ;
+    height: 100%;
+    margin-top: 100px;
+}
+
+p{
+    margin: 0;
+}
+
+.da_logo{
+    text-align: center;
+}
+
+.information {
+    margin: 0 47px;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color:  #FFFFFF;
+}
+
+button{
+    color : #ffffff;
+    border: 2px solid #0078d7;;
+    background-color: #0078d7;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+button:hover{
+    border: 2px solid #FFFFFF;
+}
+
+.telegram{
+    width: 100px;
+    height: 100px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    padding: 0 10px;
+    
+}
+
+.style_start{
+    display: flex;
+    flex-direction: column;
+    background-color: #0078d7;
+}
+

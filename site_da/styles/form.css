@@ -1,0 +1,48 @@
+.overlay{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.form_window{
+    color: #000000;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+	border: 3px solid gray;
+    width: 1000px;
+	margin: auto;
+	background: #fff;
+	z-index: 1001;
+	padding: 20px;
+    left: 37%;
+    top: 50px;
+}
+
+.comment{
+    width: 200px;
+    height: 100px;
+}
+
+.phones{
+    display: flex; 
+    flex-direction: row;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.addPhone{
+    width: 100px;
+    height: 25px;
+    margin-top: auto;
+}
+

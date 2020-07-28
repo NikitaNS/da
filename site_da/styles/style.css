@@ -1,0 +1,181 @@
+body {
+    background-color: #0078D7;
+    font-family: "Consolas";
+    color: #FFFFFF;
+    margin:0 50px;
+    font-size: 18px;
+}
+
+.main-menu, .site-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.site-map h2 {
+    font-size: 30px;
+    width: 231px;
+}
+
+.site-map ul, .contacts ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.site-map ul li{
+    width: 120px;
+    text-align: right;
+}
+
+.contacts ul li{
+    margin: 0 10px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.contacts img{
+    display: none;
+}
+
+body section {
+    margin: 0 100px;
+}
+
+.contacts{
+    margin: 0;
+}
+
+.button-request {
+    font-size: 18px;
+    background-color: #0078D7;
+    font-family: "Consolas";
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    padding: 7px;
+}
+
+.description {
+    display: flex;
+    margin: 50px auto;
+    width: max-content; 
+}
+
+.description-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.description-left div {
+    width: 400px;
+}
+
+.description-right p {
+    width: 500px;
+}
+
+.description-left div:last-child, .description-right div:last-child{
+    width: 550px;
+}
+
+
+.description-left img, .description-right img {
+    float: left;
+    margin-right: 30px;
+}
+
+
+@media (max-width: 1090px) {
+    body{
+        margin: 0 30px;
+    }
+
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contacts ul{
+        display: none;
+    }
+
+    .site-map ul{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: inline;
+    }
+
+    .contacts img{
+        display: inline;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+}
+
+img[src^="imagens/imagens-header-mobile/"] {
+    width: 50px;
+}
+
+img[src="imagens/da.png"] {
+    width: 500px;
+}
+
+a[href^="tel:"]{
+    display: block;
+    width: 218px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited { 
+    text-decoration: none;
+} 
+
+a:active { 
+    text-decoration: none;
+}
+
+ /* @media only screen and (max-width : 1200px) {
+	
+}
+
+@media only screen and (max-width : 1199px) {
+	
+}
+
+@media only screen and (max-width : 992px) {
+	
+}
+
+@media only screen and (max-width : 991px) {
+	
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+	
+}
+
+@media only screen and (max-width : 480px) {
+	
+}  */

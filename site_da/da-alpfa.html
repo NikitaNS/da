@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/super_styles.css">
+    <link rel="stylesheet" href="styles/super_googleform_styles.css">
+    <link rel="stylesheet" href="styles/super_progressbar_styles.css">
+    <script src="controller/google_form_window.js"></script>
+    <script src="controller/progress_bar.js"></script>
+    <title>Digital Angels, bitch</title>
+       
+</head>
+
+<body class="style_all">
+    <div class="progress_window">
+        <p style="margin-top: 0px;">Kak dela?</p>
+        <div id="animation_load" look_load><div class="progress_bar"> </div></div>
+        <div id="percnkisud-matedngentag"></div>
+    </div>
+    <main id = "html">
+        <p class = "da_logo"><img src = "imagens/da.png"></p>
+           <p class = "information">
+                Комплексное абонентское обслуживание включает в себя:
+                Телефонная служба поддержки: неограниченные консультации по всем IT-вопросам, прием заявок.
+                Удаленное администрирование: с помощью удаленного доступа специалист, не выезжая на объект,”заходит” на компьютер Клиента и устраняет все неполадки, решает все поставленные задачи.
+                Срочный выезд специалиста по первому требованию Клиента и решение задач любой сложности.
+                Устранение любых неисправностей компьютерной техники, оперативная реакция на внештатные ситуации.
+                Установка, настройка и оптимизация работы программного и аппаратного обеспечения.
+                Диагностика возможных проблем, профилактические работы по упреждению сбоев компьютерного, сетевого и периферийного оборудования.
+                Проведение антивирусной диагностики компьютеров и организация антивирусной защиты.
+                Модернизация компьютерного оборудования и обновление программного обеспечения.
+                Решение проблем пользователей, возникших при эксплуатации программного и аппаратного комплекса, консультирование персонала.
+            </p>
+        
+            
+
+        <div class = "cost">
+            <div class = "offer">
+                <dl>
+                    <dt>Делаем грязь качественно:</dt> 
+                    <dd>абв</dd>
+                    <dd>где</dd>
+                    <dd>жзи</dd>
+                    <dd>клм</dd>
+                </dl>
+                <p>
+                    Стоймость: 100500
+                </p>
+            </div>
+            <div class = "offer">
+                <dl>
+                    <dt>Делаем грязь качественно:</dt> 
+                    <dd>абв</dd>
+                    <dd>где</dd>
+                    <dd>жзи</dd>
+                    <dd>клм</dd>
+                </dl>
+                <p>
+                    Стоймость: 100500
+                </p>
+            </div>
+            <div class = "offer">
+                <dl>
+                    <dt>Делаем грязь качественно:</dt> 
+                    <dd>абв</dd>
+                    <dd>где</dd>
+                    <dd>жзи</dd>
+                    <dd>клм</dd>
+                </dl>
+                <p>
+                    Стоймость: 100500
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer >
+        <div class = "google_form" id="googleForm">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)"></iframe>
+            <form  action="https://docs.google.com/forms/d/e/1FAIpQLScvv0cV7CYHB0ynsmBYudsi_lDHYh37ICMREughjZYiYGVJNA/formResponse" method = "post" onsubmit="submitted=true;" target="hidden_iframe">
+                <div class="contact_information">
+                    <div>
+                        <p>Телефон для связи*</p>
+                        <input type="text" name="entry.277642187">
+                    </div>
+                    <div>
+                        <p>Фамилия Имя Отчество:*</p>
+                        <input type="text" name="entry.934658679">
+                    </div>
+                </div>
+                <div>
+                    <p>Сколько компьютеров есть на предприятии? *</p>
+                    <input type="text" name="entry.928874044">
+                </div>
+                <div class="server_check">
+                    <div>   
+                        <p>Есть сервера? *</p>
+                        <input type="radio" name="entry.1163868558" value="Да" id="serverYes" onclick="showFormTextField()">
+                        <input type="radio" name="entry.1163868558" value="Нет" id="serverNo" onclick="hideFormTextField()">
+                    </div>
+                    <div id="serversValue" style="display: none">
+                        <p>Сколько серверов есть на предприятии?*</p>
+                        <input type="text" name="entry.1260847611">
+                    </div>
+                </div>   
+                <div>
+                    <input  type="submit" onclick="closeForm()" value="Отправить">
+                    <button type="button" onclick="closeForm()">Закрыть</button>              
+                </div>
+              </form>
+        </div>
+        <button onclick="openForm()">Отправить заявку</button>
+        <p><a href="https://t.me/DaBtrd" target="_blank"><img src = "imagens/telegram.png" class="telegram"></p> 
+    </footer>
+</body>
+</html>
